@@ -28,6 +28,7 @@ RF05
 Criação de mesas
 O sistema deve Permitir que usuários criem mesas para suas apostas
 Alta
+<img width="487" height="248" alt="diagramaJogoDeDados" src="https://github.com/user-attachments/assets/bae756ee-f881-4d00-9588-e647c38e75c3" />
 
 
 
