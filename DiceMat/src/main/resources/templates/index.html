@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+</head>
+<body>
+    <h1>Dice Game 🎲</h1>
+    
+    <form th:action="@{/roll}" method="get">
+        <input type="text" name="username"/>
+        <button type="submit">Roll Dice</button>
+    </form>
+    <div th:if="${username != null}">
+        <p>Your name is: <b th:text="${username}"></b></p>
+   </div>
+    <div th:if="${diceNumber != null}">
+        <p>You rolled: <b th:text="${diceNumber}"></b></p>
+        <p>You also rolled: <b th:text="${diceNumber2}"></b></p>
+    </div>
+</body>
+</html>
